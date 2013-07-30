@@ -6,5 +6,33 @@ public class Course implements Gradable {
     private String subject;
     private String name;
     private Collection<Course> prerequisiteCourses;
-    private int courseNumber;    
+    private Collection<Class> classes;
+    private int courseNumber;
+    private double averageScore;
+    private char letterGrade;
+
+    public Course(String subject, String name, int courseNumber, 
+            Collection<course> prerequisiteCourses) {
+        this.subject = subject;
+        this.name = name;
+        this.courseNumber = courseNumber;
+        this. prerequisiteCourses = prerequisiteCourses;
+    }
+
+    public double calculateAverageScore() {
+        int count = 0;
+        int sum = 0;
+        for (Class class : classes) {
+            class.calculateAverageScore();
+            sum += class.getAverageScore();
+            count++;
+        }
+        averageScore = sum/count;
+        return averageScore;
+    }
+
+    public char calculateLetterGrade() {
+        return letterGrade;
+    }
+        
 }

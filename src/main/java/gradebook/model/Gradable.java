@@ -2,8 +2,8 @@ package gradebook.model;
 
 public interface Gradable {
 
-      public double calculateAverageScore {};
+      public double calculateAverageScore();
 
-      public char calculateLetterGrade {};
-            
+      public char calculateLetterGrade();
+
 }
