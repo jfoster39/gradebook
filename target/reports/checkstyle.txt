@@ -1,53 +1,63 @@
 Starting audit...
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/ActiveGradingScheme.java:0: File does not end with a newline.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/ActiveGradingScheme.java:3: Missing a Javadoc comment.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/ActiveGradingScheme.java:5: Line has trailing spaces.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/ActiveGradingScheme.java:6: Line has trailing spaces.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/ActiveGradingScheme.java:7: Line has trailing spaces.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/ActiveGradingScheme.java:8: Line has trailing spaces.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/ActiveGradingScheme.java:9: Line has trailing spaces.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/ActiveGradingScheme.java:18: Line has trailing spaces.
 /Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Class.java:0: File does not end with a newline.
 /Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Class.java:4: Missing a Javadoc comment.
 /Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Class.java:8: Line has trailing spaces.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Class.java:10:44: '{' is not followed by whitespace.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Class.java:10:44: '}' is not preceded with whitespace.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Class.java:12: Line has trailing spaces.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Class.java:12:41: '{' is not followed by whitespace.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Class.java:12:41: '}' is not preceded with whitespace.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Class.java:10:47: '{' is not preceded with whitespace.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Class.java:22:27: '/' is not preceded with whitespace.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Class.java:22:28: '/' is not followed by whitespace.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Class.java:28: Line has trailing spaces.
 /Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Course.java:0: File does not end with a newline.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Course.java:4: Missing a Javadoc comment.
 /Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Course.java:5: Line has trailing spaces.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Course.java:11:44: '{' is not followed by whitespace.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Course.java:11:44: '}' is not preceded with whitespace.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Course.java:13: Line has trailing spaces.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Course.java:13:41: '{' is not followed by whitespace.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Course.java:13:41: '}' is not preceded with whitespace.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Course.java:14: Line has trailing spaces.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Course.java:27:13: Got an exception - expecting EOF, found 'sum'
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Course.java:37: Line has trailing spaces.
 /Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Gradable.java:0: File does not end with a newline.
 /Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Gradable.java:3: Missing a Javadoc comment.
 /Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Gradable.java:5:7: Redundant 'public' modifier.
 /Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Gradable.java:7:7: Redundant 'public' modifier.
 /Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradebookCategory.java:0: File does not end with a newline.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradebookCategory.java:3: Missing a Javadoc comment.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradebookCategory.java:4: Line has trailing spaces.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradebookCategory.java:6: Line has trailing spaces.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradebookCategory.java:6: Line is longer than 80 characters (found 96).
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradebookCategory.java:4: Missing a Javadoc comment.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradebookCategory.java:5: Line has trailing spaces.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradebookCategory.java:7: Line has trailing spaces.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradebookCategory.java:7: Line is longer than 80 characters (found 96).
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradebookCategory.java:14: Line has trailing spaces.
 /Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradebookItem.java:0: File does not end with a newline.
 /Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradebookItem.java:3: Missing a Javadoc comment.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradebookItem.java:7: Line has trailing spaces.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradebookItem.java:9: Line has trailing spaces.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradebookItem.java:34: Line has trailing spaces.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradebookItem.java:39: Line has trailing spaces.
 /Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradingScheme.java:0: File does not end with a newline.
 /Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradingScheme.java:3: Missing a Javadoc comment.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradingScheme.java:5:44: '{' is not followed by whitespace.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradingScheme.java:5:44: '}' is not preceded with whitespace.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradingScheme.java:7:41: '{' is not followed by whitespace.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradingScheme.java:7:41: '}' is not preceded with whitespace.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradingScheme.java:5: Line has trailing spaces.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradingScheme.java:6: Line has trailing spaces.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradingScheme.java:7: Line has trailing spaces.
 /Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradingScheme.java:8: Line has trailing spaces.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradingScheme.java:9: Line has trailing spaces.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradingScheme.java:13:44: '{' is not followed by whitespace.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradingScheme.java:13:44: '}' is not preceded with whitespace.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradingScheme.java:15:41: '{' is not followed by whitespace.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradingScheme.java:15:41: '}' is not preceded with whitespace.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradingScheme.java:17: Line has trailing spaces.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradingScheme.java:17:36: '{' is not followed by whitespace.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradingScheme.java:17:36: '}' is not preceded with whitespace.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/GradingScheme.java:18: Line has trailing spaces.
 /Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Section.java:0: File does not end with a newline.
 /Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Section.java:4: Missing a Javadoc comment.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Section.java:7: Line is longer than 80 characters (found 111).
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Section.java:10:44: '{' is not followed by whitespace.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Section.java:10:44: '}' is not preceded with whitespace.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Section.java:12:41: '{' is not followed by whitespace.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Section.java:12:41: '}' is not preceded with whitespace.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Section.java:13: Line has trailing spaces.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Section.java:7: Line has trailing spaces.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Section.java:21:41: '{' is not followed by whitespace.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Section.java:21:41: '}' is not preceded with whitespace.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Section.java:30: Line has trailing spaces.
 /Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Student.java:0: File does not end with a newline.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Student.java:3: Missing a Javadoc comment.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Student.java:7: Line is longer than 80 characters (found 170).
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Student.java:8: Line has trailing spaces.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Student.java:9:44: '{' is not followed by whitespace.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Student.java:9:44: '}' is not preceded with whitespace.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Student.java:11:41: '{' is not followed by whitespace.
-/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Student.java:11:41: '}' is not preceded with whitespace.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Student.java:12: Line has trailing spaces.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Student.java:13: Line has trailing spaces.
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Student.java:18:9: Got an exception - expecting EOF, found 'this'
+/Users/tylerfoster/Documents/GaTech Summer 2013/Objects and Design/gradebook/src/main/java/gradebook/model/Student.java:29: Line has trailing spaces.
 Audit done.

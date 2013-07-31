@@ -12,14 +12,15 @@ public class Course implements Gradable {
     private char letterGrade;
 
     public Course(String subject, String name, int courseNumber, 
-            Collection<course> prerequisiteCourses) {
+            Collection<Course> prerequisiteCourses) {
         this.subject = subject;
         this.name = name;
         this.courseNumber = courseNumber;
         this. prerequisiteCourses = prerequisiteCourses;
     }
-
+    
     public double calculateAverageScore() {
+        /*
         int count = 0;
         int sum = 0;
         for (Class class : classes) {
@@ -28,8 +29,10 @@ public class Course implements Gradable {
             count++;
         }
         averageScore = sum/count;
+        */
         return averageScore;
     }
+    
 
     public char calculateLetterGrade() {
         return letterGrade;

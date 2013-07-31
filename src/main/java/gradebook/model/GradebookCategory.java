@@ -12,7 +12,7 @@ public class GradebookCategory {
     private Collection<GradebookItem> items;
 
     public GradebookCategory(String name, double weight, 
-            Collection<GradebookCategory> items) {
+            Collection<GradebookItem> items) {
         this.name = name;
         this.weight = weight;
         this.items = items;
@@ -26,7 +26,7 @@ public class GradebookCategory {
         return weight;
     }
 
-    public Collection<GradebookCategory> getItems() {
+    public Collection<GradebookItem> getItems() {
         return items;
     }
 
@@ -38,7 +38,7 @@ public class GradebookCategory {
         this.weight = weight;
     }
 
-    public void setItems(Collection<GradebookCategory> items) {
+    public void setItems(Collection<GradebookItem> items) {
         this.items = items;
     }
 }
