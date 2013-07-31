@@ -1,4 +1,4 @@
-
+import gradebook.model.*;
 import org.junit.Test;
 import org.junit.Assert;
 import java.util.ArrayList;
@@ -15,7 +15,7 @@ public class StudentTest {
     GradebookCategory quizzes = new GradebookCategory(quizzes, 2, quizItems);
     ArrayList categories = new ArrayList();
     categories.add(tests);
-    categories.add(quizzes;)
+    categories.add(quizzes);
     Student student1 = new Student(dave, categories);
 
     @Test
