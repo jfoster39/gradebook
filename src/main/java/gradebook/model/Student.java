@@ -1,4 +1,4 @@
-package gradebook.model;
+import gradebook.model.*;
 import java.util.Collection;
 import java.util.ArrayList;
 
