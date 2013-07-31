@@ -1,7 +1,7 @@
 import gradebook.model.*;
 import org.junit.Test;
-import org.junit.Assert;
-import java.util.ArrayList;
+import java.util.*;
+import static org.junit.Assert.*;
 
 public class StudentTest {
 
@@ -9,17 +9,21 @@ public class StudentTest {
     GradebookItem quiz1 = new GradebookItem(quiz1, 80);
     ArrayList testItems = new ArrayList();
     ArrayList quizItems = new ArrayList();
-    testItems.add(test1);
-    quizItems.add(quiz1);
     GradebookCategory tests = new GradebookCategory(tests, 4, testItems);
     GradebookCategory quizzes = new GradebookCategory(quizzes, 2, quizItems);
     ArrayList categories = new ArrayList();
-    categories.add(tests);
-    categories.add(quizzes);
     Student student1 = new Student(dave, categories);
 
     @Test
     public void testSetScores() throws Exception {
+        testItems.add(test1);
+        quizItems.add(quiz1);
+        GradebookCategory tests = new GradebookCategory(tests, 4, testItems);
+        GradebookCategory quizzes = new GradebookCategory(quizzes, 2, quizItems);
+        ArrayList categories = new ArrayList();
+        categories.add(tests);
+        categories.add(quizzes);
+        Student student1 = new Student(dave, categories);
         ArrayList scores = student1.setScores();
     }
 
