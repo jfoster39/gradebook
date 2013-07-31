@@ -19,7 +19,7 @@ public class Course implements Gradable {
         this. prerequisiteCourses = prerequisiteCourses;
     }
     
-    public double calculateAverageScore() {
+    public void calculateAverageScore() {
         /*
         int count = 0;
         int sum = 0;
@@ -30,11 +30,18 @@ public class Course implements Gradable {
         }
         averageScore = sum/count;
         */
-        return averageScore;
     }
     
 
-    public char calculateLetterGrade() {
+    public void calculateLetterGrade() {
+
+    }
+
+    public double getAverageScore() {
+        return averageScore;
+    }
+
+    public char getLetterGrade() {
         return letterGrade;
     }
         

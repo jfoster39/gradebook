@@ -6,10 +6,9 @@ public class GradebookItem {
     private GradebookCategory category;
     private double score;
 
-    public GradebookItem(String name, GradebookCategory category, 
-            double score) {
+    public GradebookItem(String name, double score) {
         this.name = name;
-        this.category = category;
+        ///this.category = category;
         this.score = score;
     }
 

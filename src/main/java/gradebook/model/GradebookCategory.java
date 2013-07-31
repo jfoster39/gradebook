@@ -1,5 +1,5 @@
 package gradebook.model;
-import java.util.Collection;
+import java.util.ArrayList;
 
 public class GradebookCategory {
     
@@ -9,10 +9,10 @@ public class GradebookCategory {
 
     private String name;
     private double weight;
-    private Collection<GradebookItem> items;
+    private ArrayList<GradebookItem> items;
 
     public GradebookCategory(String name, double weight, 
-            Collection<GradebookItem> items) {
+            ArrayList<GradebookItem> items) {
         this.name = name;
         this.weight = weight;
         this.items = items;
@@ -26,7 +26,7 @@ public class GradebookCategory {
         return weight;
     }
 
-    public Collection<GradebookItem> getItems() {
+    public ArrayList<GradebookItem> getItems() {
         return items;
     }
 
@@ -38,7 +38,7 @@ public class GradebookCategory {
         this.weight = weight;
     }
 
-    public void setItems(Collection<GradebookItem> items) {
+    public void setItems(ArrayList<GradebookItem> items) {
         this.items = items;
     }
 }

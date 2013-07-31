@@ -11,7 +11,7 @@ public class Class implements Gradable {
         this.sections = sections;
     }
 
-    public double calculateAverageScore() {
+    public void calculateAverageScore() {
         int count = 0;
         int sum = 0;
         for (Section section : sections) {
@@ -20,10 +20,17 @@ public class Class implements Gradable {
             count++;
         }
         averageScore = sum/count;
+    }
+
+    public void calculateLetterGrade() {
+
+    }
+
+    public double getAverageScore() {
         return averageScore;
     }
 
-    public char calculateLetterGrade() {
+    public char getLetterGrade() {
         return letterGrade;
-    } 
+    }
 }

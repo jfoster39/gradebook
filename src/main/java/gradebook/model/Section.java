@@ -10,15 +10,15 @@ public class Section implements Gradable {
     private double averageScore;
     private char letterGrade;
 
-    public double calculateAverageScore() {
+    public void calculateAverageScore() {
         int count = 0;
-        int sum = 0;
+        double sum = 0;
         for (Student student : students) {
-            sum += student.getScore();
+            sum += student.getAverageScore();
         }
     }
 
-    public char calculateLetterGrade() {}
+    public void calculateLetterGrade() {}
 
     public double getAverageScore() {
         return averageScore;
