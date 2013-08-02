@@ -1,8 +1,0 @@
-Testsuite: StudentTest
-Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 0.099 sec
-
-Testcase: testGetItemScore took 0.003 sec
-Testcase: testRemoveLowestScore took 0.001 sec
-Testcase: testSetScores took 0 sec
-Testcase: testCalculateAverageScore took 0 sec
-Testcase: testCalculateLetterGrade took 0.001 sec
