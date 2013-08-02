@@ -1,31 +1,20 @@
 package gradebook.model;
 import java.util.Collection;
 
-public class Section implements Gradable {
+/**
+ * This class represents a leaf in the composite design pattern.
+ * More specifically, it represents a section in the project.
+ *
+ * @author Tyler Foster
+ * @version 1.0 8/1/13
+ */
+public class Section extends CompositeGradable implements Gradable {
 
-    // Todo
-    // belongs to a Class and contains Students and reports the average score 
-    // and letter grade for the section.
+    private String name;
     private Collection<Student> students;
-    private double averageScore;
-    private char letterGrade;
 
-    public void calculateAverageScore() {
-        int count = 0;
-        double sum = 0;
-        for (Student student : students) {
-            sum += student.getAverageScore();
-        }
+    public Section(String name, Collection<Student> students) {
+        this.name = name;
+        this.students = students;
     }
-
-    public void calculateLetterGrade() {}
-
-    public double getAverageScore() {
-        return averageScore;
-    }
-
-    public char getLetterGrade() {
-        return letterGrade;
-    }
-    
 }

@@ -1,17 +1,20 @@
 package gradebook.model;
 import java.util.ArrayList;
 
+/**
+ * Class represents a gradebook category, which allows us to assign
+ * weights to be used in calculating a students average score from
+ * the score they received on each gradebook item.
+ *
+ * @author Tyler Foster
+ * @version 1.0 8/1/13
+ */
 public class GradebookCategory {
-    
-    // TODO
-    // GradebookCategory with a name and a weight to be used in calculating a Student's average 
-    // score from the scores they received on each GradebookItem.
-
     private String name;
     private double weight;
     private ArrayList<GradebookItem> items;
 
-    public GradebookCategory(String name, double weight, 
+    public GradebookCategory(String name, double weight,
             ArrayList<GradebookItem> items) {
         this.name = name;
         this.weight = weight;

@@ -1,5 +1,12 @@
 package gradebook.model;
 
+/**
+ * Class for representing items in a gradebook. This allows us to
+ * organize the items and gradebook categories and assign weights accordingly.
+ *
+ * @author Tyler Foster
+ * @version 1.0 8/1/13
+ */
 public class GradebookItem {
 
     private String name;
@@ -30,10 +37,9 @@ public class GradebookItem {
 
     public void setCategory(GradebookCategory category) {
         this.category = category;
-    } 
+    }
 
     public void setScore(double score) {
         this.score = score;
     }
-    
 }

@@ -1,30 +1,35 @@
 package gradebook.model;
 
-public class GradingScheme {
-
-    /* GradingScheme objects should be easily definable to calculate Student 
-    scores and letter grades based on user-definable criteria such as 
-    GradebookCategory weights, dropping lowest-scored GradebookItem in a 
-    GradebookCategory from score calculation, using average scores from the 
-    other GradebookItems in a GradebookCategory to replace lowest-scored
-    GradebookItem in the GradebookCategory, and so on.
-    */
+/**
+ * Abstract class for creating Grading Schemes. Represents
+ * a problem domain entity and allows us to swap out different
+ * implementations with the use of active records.
+ *
+ * @author Tyler Foster
+ * @version 1.0 8/1/13
+ */
+public abstract class GradingScheme implements Gradable {
 
     private double averageScore;
     private char letterGrade;
 
-    public GradingScheme() {};
+    public GradingScheme() { }
 
-    public void calculateAverageScore() {};
+    public void calculateAverageScore() { }
 
-    public void calculateLetterGrade() {};
+    public void calculateLetterGrade(GradingScheme gradingScheme) { }
 
-    //public double getAverageScore() {};
+    public double getAverageScore() {
+        return averageScore;
+    }
 
-    //public char getLetterGrade() {};
+    public char getLetterGrade() {
+        return letterGrade;
+    }
 
-    public void dropLowestScore() {};
+    public void dropLowestScore() { }
 
-    public void setLetterGrades() {};
-    
+    public void setAverageScore(double averageScore) { }
+
+    public void setLetterGrade(char letterGrade) { }
 }

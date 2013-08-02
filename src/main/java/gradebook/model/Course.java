@@ -1,48 +1,31 @@
 package gradebook.model;
 import java.util.Collection;
 
-public class Course implements Gradable {
-    
+/**
+ * This class represents a leaf in the composite design pattern.
+ * More specifically, it represents a Course in the project.
+ *
+ * @author Tyler Foster
+ * @version 1.0 8/1/13
+ */
+public class Course extends CompositeGradable implements Gradable {
     private String subject;
     private String name;
     private Collection<Course> prerequisiteCourses;
-    private Collection<Class> classes;
+    private Collection<Classroom> classes;
     private int courseNumber;
-    private double averageScore;
-    private char letterGrade;
 
-    public Course(String subject, String name, int courseNumber, 
+    public Course(String subject, String name, int courseNumber,
             Collection<Course> prerequisiteCourses) {
         this.subject = subject;
         this.name = name;
         this.courseNumber = courseNumber;
-        this. prerequisiteCourses = prerequisiteCourses;
-    }
-    
-    public void calculateAverageScore() {
-        /*
-        int count = 0;
-        int sum = 0;
-        for (Class class : classes) {
-            class.calculateAverageScore();
-            sum += class.getAverageScore();
-            count++;
-        }
-        averageScore = sum/count;
-        */
-    }
-    
-
-    public void calculateLetterGrade() {
-
+        this.prerequisiteCourses = prerequisiteCourses;
     }
 
-    public double getAverageScore() {
-        return averageScore;
+    public Course(String subject, String name, int courseNumber) {
+        this.subject = subject;
+        this.name = name;
+        this.courseNumber = courseNumber;
     }
-
-    public char getLetterGrade() {
-        return letterGrade;
-    }
-        
 }
